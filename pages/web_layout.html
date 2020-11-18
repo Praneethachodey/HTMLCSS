@@ -1,0 +1,93 @@
+<!doctype html>
+<title>Example</title>
+<style>
+  * {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    flex-direction: row;
+  }
+  .main{
+      display: flex;
+      flex-flow: column wrap;
+      text-align: center;
+      flex: 5 0px;
+  }
+  .mainContainer{
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+  }
+  .headerContainer{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background: tomato;
+    font-weight: bold;
+    padding: 10px;
+    }
+   .mainContentItem{
+    text-align: center;
+    background: deepskyblue;
+    flex: 3 0px;
+    }
+
+    article{
+    padding: 10px;
+    margin: 10px;
+    background: aqua;
+    }
+
+    .footerContainer{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background: lightgreen;
+    font-weight: bold;
+    padding: 10px;
+    }
+    .col-1 {
+    background: #D7E8D4;
+    flex: 1 0 0;
+  }
+
+  aside{
+      background: hotpink;
+      flex: 1 0 0;
+  }
+  
+ 
+  
+</style>
+<body>
+    <nav class="col-1">NAV</nav>
+    <div class="main">
+    <header class= "headerContainer">Header</header>
+    <div class="mainContainer">
+        <div class="mainContentItem">
+        <article>
+            <h2>First article</h2>
+            <p>Birla Institute of Technology & Science, Pilani is a deemed university and 
+                Institute of Eminence under Section 3 of the UGC Act 1956 for higher education 
+                and research in India</p>
+        </article>
+        <article>
+            <h2>Second article</h2>
+            <p>Birla Institute of Technology & Science, Pilani is a deemed university and 
+                Institute of Eminence under Section 3 of the UGC Act 1956 for higher education 
+                and research in India</p>
+        </article>
+        <article>
+            <h2>Third article</h2>
+            <p>Birla Institute of Technology & Science, Pilani is a deemed university and 
+                Institute of Eminence under Section 3 of the UGC Act 1956 for higher education 
+                and research in India</p>
+        </article>
+    </div>
+    <aside>Aside</aside>
+    </div>
+    <footer class="footerContainer">Footer</footer>
+</div>
+</body>
